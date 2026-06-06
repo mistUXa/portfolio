@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="introOverlay"></div>
+
+  <main id="mainContent">
+    <div id="logoWrap">
+      <img id="logoImg" src="assets/logo/logo.png" alt="Logo">
+    </div>
+
+    <div id="navPanel">
+      <div id="navItems">
+        <div class="navItem" data-index="0" data-page="about">
+          <div class="iconWrap">
+            <img src="assets/icons/about.png" alt="About">
+          </div>
+          <div class="iconPopup">About</div>
+        </div>
+        <div class="navItem" data-index="1" data-page="projects">
+          <div class="iconWrap">
+            <img src="assets/icons/projects.png" alt="Projects">
+          </div>
+          <div class="iconPopup">Projects</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sideNavPanel">
+      <a href="#projectKM" class="sideNavCard">KM</a>
+      <a href="#projectTH" class="sideNavCard">TH</a>
+      <a href="#projectNC" class="sideNavCard">NC</a>
+      <a href="#projectCTD" class="sideNavCard">CTD</a>
+      <a href="#projectAC" class="sideNavCard">AC</a>
+    </div>
+
+    <div id="pageContainer">
+
+      <div class="page" id="pageAbout">
+        <div id="aboutText">
+          <div id="aboutGlow"></div>
+          <p class="aboutLine">Roblox Developer with 5 years of experience.</p>
+          <p class="aboutLine">Scripting · UI Design · Anticheats</p>
+          <p class="aboutLine aboutContact">Discord: <span class="contactTag">@mistUXa</span></p>
+        </div>
+        <div id="skillsPanel">
+          <div class="skillItem">
+            <img src="https://cdn.simpleicons.org/lua/ffffff" alt="Luau">
+            <div class="skillPopup">Luau</div>
+          </div>
+          <div class="skillItem">
+            <img src="https://cdn.simpleicons.org/roblox/ffffff" alt="Roblox Studio">
+            <div class="skillPopup">Roblox Studio</div>
+          </div>
+          <div class="skillItem">
+            <img src="https://cdn.simpleicons.org/git/ffffff" alt="Git">
+            <div class="skillPopup">Git</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page" id="pageProjects">
+        
+        <div class="projectCard scrollTarget" id="projectKM">
+          <a href="https://www.roblox.com/games/14266354720" target="_blank" class="projectLink"> 
+            <img class="projectMedia" src="assets/images/km.png">
+            <p class="projectTitle textLg" style="color: #4383cc !important;">Kintoru's Maze</p>
+          </a>
+          <p class="projectDesc textSm"><i>One of the best, if not the best, projects I've ever worked on.</i></p>
+          <div style="height: 12px;"></div>
+          <video class="projectMedia" src="assets/videos/km/previewkm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectBody textSm">The game is a fan-game of "The Mimic" on Roblox. Unlike other Mimic fangames, Kintoru's Maze offers a high-quality experience. Sadly, at the moment its discontinued and no longer receiving updates.</p>
+          <div style="height: 8px;"></div>
+          
+          <p class="projectBody textSm" style="font-size: 17px !important; color: white !important;">Things I've made:</p>
+          
+          <video class="projectMediaAuto" src="assets/videos/km/loadingkm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Loading Screen</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/km/menukm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Menu Screen</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/km/dialoguekm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Dialogue System</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/km/spectatekm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Spectate System</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/km/settingskm.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Settings</p>
+          <div style="height: 20px;"></div>
+        </div>
+
+        <div class="projectCard scrollTarget" id="projectTH">
+          <a href="https://www.roblox.com/games/9091335302" target="_blank" class="projectLink"> 
+            <img class="projectMedia" src="assets/images/th.png">
+            <p class="projectTitle textLg" style="color: #4383cc !important;">Thanatophobia</p>
+          </a>
+          <div style="height: 12px;"></div>
+          <p class="projectBody textSm" style="font-size: 17px !important; color: white !important;">Things I've made:</p>
+
+          <video class="projectMediaAuto" src="assets/videos/th/menu.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Menu Screen</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/th/party.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Party System</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/th/shop.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Daily Shop</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/th/inventory.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Inventory</p>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/th/gamepad.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Inventory <i>(ON GAMEPAD)</i></p>
+          <p class="projectBody textSm">Credits to jatoxa for clips</p>
+        </div>
+
+        <div class="section-divider">
+          <h2 class="development-title">MY GAMES (In-Development)</h2>
+        </div>
+
+        <div class="projectCard scrollTarget" id="projectNC">
+         <img class="projectMedia" 
+            src="assets/images/nc.png" 
+            style="width: 60% !important; height: auto !important; background: transparent !important; object-fit: contain !important; mix-blend-mode: screen; margin-left: 0; margin-right: auto; display: block;" 
+            alt="Ninth Circle">
+         <p class="projectTitle textLg">Ninth Circle</p>
+         <div style="height: 12px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/nc/lobby.mp4" autoplay loop muted playsinline></video>
+          <div style="height: 20px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/nc/dialogue.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">These two were fully made by me (Design + Scripting).</p>
+          <div style="height: 35px;"></div>
+
+        </div>
+
+        <div class="projectCard scrollTarget" id="projectCTD">
+         <p class="projectTitle textLg">Classic Tower Defense</p>
+         <div style="height: 12px;"></div>
+
+          <video class="projectMediaAuto" src="assets/videos/ctd.mp4" autoplay loop muted playsinline></video>
+          <div style="height: 20px;"></div>
+        </div>
+
+        <div class="section-divider">
+          <h2 class="development-title">MY ANTICHEAT</h2>
+        </div>
+
+        <div class="projectCard scrollTarget" id="projectAC">
+          <video class="projectMediaAuto" src="assets/videos/anticheat.mp4" autoplay loop muted playsinline></video>
+          <p class="projectTitle textLg">Detects popular scripts almost instantly (e.g. Dex Explorer, Infinite Yield, Save Instance)</p>
+          <div style="height: 20px;"></div>
+        
+          <p class="projectDesc textSm"><i>That's all, thanks for reading :)</i></p>
+        </div>
+
+      </div>
+
+
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
